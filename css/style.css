@@ -1,0 +1,64 @@
+html,
+body {
+  background: #5a6b90;
+}
+
+.center {
+  box-sizing: border-box;
+  padding: 5px 5px 5px 35px;
+  position: absolute;
+  width: 240px;
+  height: 60px;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  background: transparent;
+}
+
+.buttons {
+  position: absolute;
+  width: 100%;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  text-align: center;
+}
+
+.buttons button {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  font-size: 25px;
+  transition: 0.25s all;
+}
+
+.buttons button:hover {
+  background: #fff;
+  color: #000;
+}
+
+.spacer {
+  float: left;
+}
+
+#timer {
+  user-select: none;
+  overflow: auto;
+  text-shadow: 5px 5px 8px #000;
+  text-shadow: -2px -2px rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+}
+
+#canvas {
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
