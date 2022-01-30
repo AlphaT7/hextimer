@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "snowpack": "^3.8.8"
-  }
+  },
+  "name": "hextimer",
+  "version": "1.0.0",
+  "main": "snowpack.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlphaT7/hextimer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlphaT7/hextimer/issues"
+  },
+  "homepage": "https://github.com/AlphaT7/hextimer#readme",
+  "description": ""
 }

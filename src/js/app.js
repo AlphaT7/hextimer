@@ -1,5 +1,3 @@
-//import { defineGrid } from "honeycomb-grid";
-
 let lastTick = null;
 let newTimer = true;
 let timerRunning = false;
@@ -12,8 +10,8 @@ let secondsTick = 0;
 let minutesTick = 0;
 
 const canvas = document.querySelector("#canvas");
-canvas.width = 351;
-canvas.height = 351;
+canvas.width = 391;
+canvas.height = 391;
 const ctx = canvas.getContext("2d");
 const log = console.log.bind(console);
 
